@@ -1,0 +1,43 @@
+<html>
+
+<body>
+
+  <!--Explaining the components of the form:
+
+  action is when the form is submitted, the resource/URL(Uniform Resource Locator) is sent for processing. 
+  The form will be submitted back to the current page URL if that is not set or set to an empty string.
+
+  method is the HTTP method that is utilized to send the data. In this form the get method is being used. 
+  The GET method should only be utilized for forms that do not change user data. 
+   
+  id helps to identify the field
+
+  value is responsible for defining the initial value for the field when it is first displayed
+
+  type helps to define the kind of widget that will be displayed
+  
+  The submit input will be shown as a button; the data contained by the alternative input elements to the server is uploaded when the user presses the button.
+     
+    -->
+
+  <h1>My name is Herbert James</h1>
+  <form action="/name" method="get" target="_blank">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <hr>
+
+  <h1>Post</h1>
+  <form action="/name" method="get" target="_blank">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
